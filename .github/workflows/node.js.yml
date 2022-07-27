@@ -37,3 +37,5 @@ jobs:
     - run: npm run prettier
     - run: CI=true npm run test
     - run: npm run build
+
+    - run: ls -al
